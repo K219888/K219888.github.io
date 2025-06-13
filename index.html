@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K219888 – 3D Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --text: #0077cc;
+      --overlay-bg: rgba(255, 255, 255, 0.82);
+      --card: #ffffff;
+      --shadow: rgba(0, 0, 0, 0.1);
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: var(--text);
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
+    .overlay {
+      max-width: 750px;
+      margin: auto;
+      background: var(--overlay-bg);
+      border-radius: 16px;
+      padding: 30px;
+      box-shadow: 0 10px 30px var(--shadow);
+    }
+    h1, h2 {
+      color: var(--text);
+    }
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-weight: 300;
+    }
+    h2 {
+      margin-bottom: 15px;
+      font-weight: 500;
+    }
+    ul {
+      margin-left: 1.2rem;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    .projects .card {
+      margin-bottom: 15px;
+      padding: 15px;
+      background: var(--card);
+      border-radius: 12px;
+      box-shadow: 0 4px 16px var(--shadow);
+      transition: transform 0.3s ease;
+    }
+    .projects .card:hover {
+      transform: translateY(-3px);
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: 60px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <main>
+      <header>
+        <h1>K219888</h1>
+        <p>3D Graphic Designer — Visual Motion & Digital Sculpture</p>
+      </header>
+
+      <section>
+        <h2>About</h2>
+        <p>I’m <strong>K219888</strong>, a 3D visual artist blending shape, atmosphere, and movement into digital creations. I specialize in Blender, Clo3D, and cinematic 3D visuals.</p>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <ul>
+          <li>3D Modeling • Texturing • Rendering</li>
+          <li>Motion Design • Composition • Art Direction</li>
+          <li>Tools: Blender, Clo3D, Substance Painter</li>
+        </ul>
+      </section>
+
+      <section class="projects">
+        <h2>Showcase</h2>
+        <div class="card">
+          <p>🎬 Video reel showcasing 3D animation, lighting, and visual storytelling.</p>
+        </div>
+        <div class="card">
+          <p>🎥 Style tests and motion experiments in Blender & Clo3D.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <p>Reach me via email: your.email@example.com</p>
+      </section>
+
+      <footer>
+        &copy; 2025 K219888
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
